@@ -1,0 +1,48 @@
+[ 2015-08-10T14:18:15+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/Home/User/css/index.css
+ERR: 非法操作:css
+
+[ 2015-08-10T14:18:15+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/Home/User/js/main.js
+ERR: 非法操作:js
+
+[ 2015-08-10T14:18:15+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/Home/User/js/demo.js
+ERR: 非法操作:js
+
+[ 2015-08-10T14:18:40+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/Home/User/js/demo.js
+ERR: 非法操作:js
+
+[ 2015-08-10T14:18:40+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/Home/User/css/index.css
+ERR: 非法操作:css
+
+[ 2015-08-10T14:18:41+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/Home/User/js/main.js
+ERR: 非法操作:js
+
+[ 2015-08-10T15:25:27+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/css/index.css
+ERR: 无法加载控制器:Css
+
+[ 2015-08-10T15:25:28+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/demo.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:25:28+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:31:24+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/demo.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:31:24+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:33:37+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/demo.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:33:37+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:36:53+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/demo.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T15:36:53+08:00 ] 127.0.0.1 /test/new_project_network/network/index.php/home/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-10T17:26:06+08:00 ] 127.0.0.1 /test/new_project_network/network/
+ERR: 模板不存在:D:/phpEnv/www/test/new_project_network/network/Home/View/Index/index.html
+

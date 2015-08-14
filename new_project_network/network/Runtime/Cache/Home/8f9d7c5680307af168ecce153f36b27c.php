@@ -1,37 +1,37 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
     <title></title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}/page.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo (CSS_URL); ?>/page.css">
 </head>
 <body>
     <div id="wap">  
     </div>
     <div id="login_page_father">
-        <img src="{$Think.const.IMG_URL}/login_bg.png">
+        <img src="<?php echo (IMG_URL); ?>/login_bg.png">
         <a id="close" href=""></a>
             <div id="login_content">
-                <img id="login_logo" src="{$Think.const.IMG_URL}/new.png">
+                <img id="login_logo" src="<?php echo (IMG_URL); ?>/new.png">
                 <form action="" method="post">
                     <div id="user_name_d">
-                        <img class="l" src="{$Think.const.IMG_URL}/login_img.png">
+                        <img class="l" src="<?php echo (IMG_URL); ?>/login_img.png">
                         <input id="user_name" type="text">
                     </div>
                     <div id="password_d">
-                        <img class="l" src="{$Think.const.IMG_URL}/pass_img.png">
+                        <img class="l" src="<?php echo (IMG_URL); ?>/pass_img.png">
                         <input id="password" type="password">
                     </div>
                     <div id="phone_d">
-                        <img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/phone.png">
+                        <img style="float:left;margin:10px 6px 0 0;" src="<?php echo (IMG_URL); ?>/phone.png">
                         <input id="phone" type="text">
                     </div>
                     <div id="qq_d">
-                        <img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/qq.png">
+                        <img style="float:left;margin:10px 6px 0 0;" src="<?php echo (IMG_URL); ?>/qq.png">
                         <input id="qq" type="text">
                     </div>
                     <div id="behavior_d">
-                        <img style="float:left;" src="{$Think.const.IMG_URL}/behavior.png">
+                        <img style="float:left;" src="<?php echo (IMG_URL); ?>/behavior.png">
                         <div id="post_behavior">
                             <a href=""></a>
                             <a href=""></a>
@@ -61,8 +61,8 @@
             <div class="header_container">
                 <ul class="nav">
                     <li class="cqupt">
-                        <img src="{$Think.const.IMG_URL}/cqupt.png">
-                        <img src="{$Think.const.IMG_URL}/cqupt_f.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt_f.png">
                     </li>
                     <li class="index">
                         <a href="index.html">首页</a>
@@ -95,8 +95,8 @@
             <div class="header_container">
                 <ul class="nav">
                     <li class="cqupt">
-                        <img src="{$Think.const.IMG_URL}/cqupt.png">
-                        <img src="{$Think.const.IMG_URL}/cqupt_f.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt_f.png">
                     </li>
                     <li class="index">
                         <a href="index.html">首页</a>
@@ -127,27 +127,27 @@
         </div>
     </div>
     <div class="timer">
-        <img src="{$Think.const.IMG_URL}/maptimerbg.png">
+        <img src="<?php echo (IMG_URL); ?>/maptimerbg.png">
         <div class="timer_container">
-            <img id="cloud01" class="cloud01" src="{$Think.const.IMG_URL}/cloud01.png">
-            <img id="cloud02" class="cloud02" src="{$Think.const.IMG_URL}/cloud03.png">
-            <img id="cloud03" class="cloud03" src="{$Think.const.IMG_URL}/cloud04.png">
-            <img id="cloud04" class="cloud04" src="{$Think.const.IMG_URL}/cloud05.png">
+            <img id="cloud01" class="cloud01" src="<?php echo (IMG_URL); ?>/cloud01.png">
+            <img id="cloud02" class="cloud02" src="<?php echo (IMG_URL); ?>/cloud03.png">
+            <img id="cloud03" class="cloud03" src="<?php echo (IMG_URL); ?>/cloud04.png">
+            <img id="cloud04" class="cloud04" src="<?php echo (IMG_URL); ?>/cloud05.png">
             <div class="logo"></div>
-            <img class="car" src="{$Think.const.IMG_URL}/car.png">
-            <img src="{$Think.const.IMG_URL}/hotball.png"class="hotball">
-            <img class="line"src="{$Think.const.IMG_URL}/map_line.png">
+            <img class="car" src="<?php echo (IMG_URL); ?>/car.png">
+            <img src="<?php echo (IMG_URL); ?>/hotball.png"class="hotball">
+            <img class="line"src="<?php echo (IMG_URL); ?>/map_line.png">
         </div>
     </div>
     <div class="container">
-        <img src="{$Think.const.IMG_URL}/mapground.png">
+        <img src="<?php echo (IMG_URL); ?>/mapground.png">
         <div class="container_content">
-            <img class="line_right01" src="{$Think.const.IMG_URL}/line_right01.png">
+            <img class="line_right01" src="<?php echo (IMG_URL); ?>/line_right01.png">
             <div class="mapwrapper">
                 <a class="active" id = "btu_2D">新生攻略</a>
                 <a id = "btu_3D">学生组织</a>
-                <img src="{$Think.const.IMG_URL}/know_t.png" alt="" class="maptitle">
-                <img src="{$Think.const.IMG_URL}/mapbg.png" class= "mapbg">
+                <img src="<?php echo (IMG_URL); ?>/know_t.png" alt="" class="maptitle">
+                <img src="<?php echo (IMG_URL); ?>/mapbg.png" class= "mapbg">
                 <div class = "mapstatic">
                     <div id="D2map" class="page">
                         <div class="page_top">
@@ -782,7 +782,7 @@
                         </div>
                     </div>
                 </div> 
-                <img src="{$Think.const.IMG_URL}/grass.png" class = "grass">
+                <img src="<?php echo (IMG_URL); ?>/grass.png" class = "grass">
             </div>
         </div>
         <a id="go_top" href="#"></a>
@@ -815,9 +815,9 @@
             </p>
         </div>
     </div>
-    <script src="{$Think.const.JS_URL}/demo.js"></script>
-    <script src="{$Think.const.JS_URL}/page.js"></script>
-    <script src="{$Think.const.JS_URL}/fix.js"></script>
+    <script src="<?php echo (JS_URL); ?>/demo.js"></script>
+    <script src="<?php echo (JS_URL); ?>/page.js"></script>
+    <script src="<?php echo (JS_URL); ?>/fix.js"></script>
     <script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=d84d6d83e0e51e481e50454ccbe8986b"></script>
 </body>
 </html>

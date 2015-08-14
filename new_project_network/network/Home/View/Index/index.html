@@ -6,92 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}/index.css">
 </head>
 <body>
-	<div id="wap">	
-	</div>
-	<div id="login_page_father">
-		<img src="{$Think.const.IMG_URL}/login_bg.png">
-		<a id="close" href=""></a>
-			<div id="login_content">
-				<img id="login_logo" src="{$Think.const.IMG_URL}/new.png">
-				<form action="" method="post">
-					<div id="user_name_d">
-						<img class="l" src="{$Think.const.IMG_URL}/login_img.png">
-						<input id="user_name" type="text" name="user_name">
-					</div>
-					<div id="password_d">
-						<img class="l" src="{$Think.const.IMG_URL}/pass_img.png">
-						<input id="password" type="password" name="password">
-					</div>
-					<div id="phone_d">
-						<img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/phone.png">
-						<input id="phone" type="text" name="phone">
-					</div>
-					<div id="qq_d">
-						<img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/qq.png">
-						<input id="qq" type="text" name="qq">
-					</div>
-					<div id="behavior_d">
-						<img style="float:left;" src="{$Think.const.IMG_URL}/behavior.png">
-						<div id="post_behavior">
-							<a href="">动漫</a>
-							<a href="">极客</a>
-							<a href="">摄影</a>
-							<a href="">吃货</a>
-							<a href="">lol</a>
-							<a href="">篮球</a>
-							<a href="">旅游</a>
-							<a href="">电影</a>
-							<a href="">学霸</a>
-							<a href="">健身</a>
-							<a href="">音乐</a>
-							<a href="">综艺</a>
-						</div>	
-					</div>
-				</form>
-				<a id="login_sub" href="{$Think.const.VIEW}/login">登录</a>
-				<a id="skip" href="">跳过</a>
-				<a id="yes" href="{$Think.const.VIEW}/info">确认</a>
-				<p id="warming">
-					你输入的帐号/密码格式有误
-				</p>
-			</div>
-		</div>
-	<div class="big_header">
-		<div class="header" id="header">
-			<div class="header_container">
-				<ul class="nav">
-					<li class="cqupt">
-						<img src="{$Think.const.IMG_URL}/cqupt.png">
-						<img src="{$Think.const.IMG_URL}/cqupt_f.png">
-					</li>
-					<li class="index">
-						<a href="#">首页</a>
-					</li>
-					<li>
-						<a href="map.html">重邮地图</a>
-					</li>
-					<li>
-						<a href="data.html">大数据</a>
-					</li>
-					<li>
-						<a href="page.html">重邮百科</a>
-					</li>
-					<li>
-						<a href="windcolor.html">重邮风采</a>
-					</li>
-					<li>
-						<a href="">大声HI</a>
-					</li>
-					<li class="last">
-						<a href="">关于我们</a>
-					</li>
-					<li id="login">
-						<a>新生登录</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+    <include file="Public:header" />
 	<div class="timer">
 		<img class="t_bg" src="{$Think.const.IMG_URL}/timer_bg.png">
 		<div class="timer_container">
@@ -221,36 +136,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<div class="footer_content">
-			<p class="b">
-				<a href="">
-					关于红岩网校
-				</a>    
-				<span>|</span>    
-				<a href="">
-					网站地图
-				</a>    
-				<span>|</span>   
-				<a href="">
-					指出错误
-				</a>    
-				<span>|</span>    
-				<a href="">
-					管理入口
-				</a>    
-				<span>|</span>
-			</p>
-			<p>
-				本网站由红岩网校工作站负责开发，管理，不经红岩网校委员会书面同意，不得进行转载
-			</p>
-			<p style="padding-bottom:46px;">
-				地址：重庆市南岸区崇文路2号（重庆邮电大学内） 400065 E-mail :redrock@cqupt.edu.cn (023-62461084)
-			</p>
-		</div>
-	</div>
-	<script src="{$Think.const.JS_URL}/demo.js"></script>
-	<script src="{$Think.const.JS_URL}/main.js"></script>
-	<script src="{$Think.const.JS_URL}/fix.js"></script>
+    <include file="Public:footer" />
+    <script src="{$Think.const.JS_URL}/main.js"></script>
+
 </body>
 </html>

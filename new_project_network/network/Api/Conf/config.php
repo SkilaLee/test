@@ -1,11 +1,11 @@
 <?php
 return array(
-	//url模式设置
-	'URL_MODEL'=> 0,
-	//让页面显示追踪日志信息
-	'SHOW_PAGE_TRACE' => true,
-	//数据库连接配置
-	'DB_TYPE'               =>  'mysql',     // 数据库类型
+    //url模式设置
+    'URL_MODEL'=> 0,
+    //让页面显示追踪日志信息
+    'SHOW_PAGE_TRACE' => true,
+    //数据库连接配置
+    'DB_TYPE'               =>  'mysql',     // 数据库类型
     'DB_HOST'               =>  'localhost', // 服务器地址
     'DB_NAME'               =>  'new_stu2015',          // 数据库名
     'DB_USER'               =>  'root',      // 用户名

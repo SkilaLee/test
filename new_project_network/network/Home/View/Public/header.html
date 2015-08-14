@@ -1,0 +1,120 @@
+<div id="wap">
+</div>
+<div id="login_page_father">
+    <img src="{$Think.const.IMG_URL}/login_bg.png">
+    <a id="close" href=""></a>
+    <div id="login_content">
+        <img id="login_logo" src="{$Think.const.IMG_URL}/new.png">
+        <form action="" method="post">
+            <div id="user_name_d">
+                <img class="l" src="{$Think.const.IMG_URL}/login_img.png">
+                <input id="user_name" type="text" name="user_name">
+            </div>
+            <div id="password_d">
+                <img class="l" src="{$Think.const.IMG_URL}/pass_img.png">
+                <input id="password" type="password" name="password">
+            </div>
+            <div id="phone_d">
+                <img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/phone.png">
+                <input id="phone" type="text" name="phone">
+            </div>
+            <div id="qq_d">
+                <img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/qq.png">
+                <input id="qq" type="text" name="qq">
+            </div>
+            <div id="behavior_d">
+                <img style="float:left;" src="{$Think.const.IMG_URL}/behavior.png">
+                <div id="post_behavior">
+                    <a href="#">动漫</a>
+                    <a href="#">极客</a>
+                    <a href="#">摄影</a>
+                    <a href="#">吃货</a>
+                    <a href="#">LOL</a>
+                    <a href="#">篮球</a>
+                    <a href="#">旅行</a>
+                    <a href="#">电影</a>
+                    <a href="#">学霸</a>
+                    <a href="#">健身</a>
+                    <a href="#">音乐</a>
+                    <a href="#">综艺</a>
+                </div>
+            </div>
+        </form>
+        <a id="login_sub" href="{$Think.const.VIEW}/login">登录</a>
+        <a id="skip" href="">跳过</a>
+        <a id="yes" href="{$Think.const.VIEW}/info">确认</a>
+        <p id="warming">
+            你输入的帐号/密码格式有误
+        </p>
+    </div>
+</div>
+<div class="big_header">
+    <div class="header" id="header">
+        <div class="header_container">
+            <ul class="nav">
+                <li class="cqupt">
+                    <img src="{$Think.const.IMG_URL}/cqupt.png">
+                    <img src="{$Think.const.IMG_URL}/cqupt_f.png">
+                </li>
+                <li class="index">
+                    <a href="{:U('Index/index')}">首页</a>
+                </li>
+                <li>
+                    <a href="{:U('Map/map')}">重邮地图</a>
+                </li>
+                <li>
+                    <a href="{:U('Data/data')}">大数据</a>
+                </li>
+                <li>
+                    <a href="{:U('Page/page')}">重邮百科</a>
+                </li>
+                <li>
+                    <a href="{:U('Windcolor/windcolor')}">重邮风采</a>
+                </li>
+                <li>
+                    <a href="">大声HI</a>
+                </li>
+                <li class="last">
+                    <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                </li>
+                <li id="{$login1}">
+                    <a href="{$checkState}">{$checkLogin}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header" id="H">
+        <div class="header_container">
+            <ul class="nav">
+                <li class="cqupt">
+                    <img src="{$Think.const.IMG_URL}/cqupt.png">
+                    <img src="{$Think.const.IMG_URL}/cqupt_f.png">
+                </li>
+                <li class="index">
+                    <a href="{:U('Index/index')}">首页</a>
+                </li>
+                <li>
+                    <a href="{:U('Map/map')}">重邮地图</a>
+                </li>
+                <li>
+                    <a href="{:U('Data/data')}">大数据</a>
+                </li>
+                <li>
+                    <a href="{:U('Page/page')}">重邮百科</a>
+                </li>
+                <li>
+                    <a href="{:U('Windcolor/windcolor')}">重邮风采</a>
+                </li>
+                <li>
+                    <a href="">大声HI</a>
+                </li>
+                <li class="last">
+                    <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                </li>
+                <li id="{$login2}">
+                    <a href="{$checkState}">{$checkLogin}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

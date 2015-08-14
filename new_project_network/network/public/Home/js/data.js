@@ -321,7 +321,7 @@ eventHandler.addEvent(close,"click",function(){
         big.style.display = "none";
     })
 })
-})();
+})("login","aw");
 
 
 
